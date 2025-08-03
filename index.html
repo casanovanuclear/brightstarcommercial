@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brightstar Commercial Agencies & Land Surveyors</title>
+  <style>
+    :root {
+      --primary-color: #2e7d32;
+      --accent-color: #66bb6a;
+      --background: rgba(255, 255, 255, 0.85);
+      --footer-bg: #004d00;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: Arial, sans-serif;
+      color: #333;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      background: url("images/background.jpg") no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    header {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      background-color: rgba(0, 100, 0, 0.85);
+    }
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.logo {
+  height: 20px; /* Adjust as needed */
+  width: auto;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+.header-text p {
+  margin: 5px 0 0;
+  font-size: 1em;
+}
+
+    nav {
+      background-color: var(--accent-color);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      padding: 15px 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      background-color: #4caf50;
+    }
+
+    main {
+      flex: 1;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+      background-color: var(--background);
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: var(--primary-color);
+    }
+
+    #services ul {
+      list-style: square;
+      padding-left: 20px;
+      line-height: 1.8;
+    }
+
+    .unit {
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      background-color: #f0fff0;
+    }
+
+    .unit h3 {
+      margin: 0 0 10px;
+      color: #006400;
+    }
+
+    .unit p {
+      margin: 5px 0;
+    }
+
+    .sold {
+      color: red;
+      font-weight: bold;
+    }
+
+    .available {
+      color: green;
+      font-weight: bold;
+    }
+
+    #contact {
+      background-color: #e6f4e6;
+      padding: 50px 20px;
+      text-align: center;
+      border-radius: 8px;
+    }
+
+    #contact p {
+      font-size: 18px;
+    }
+
+    #contact a {
+      color: #2e8b57;
+      text-decoration: none;
+    }
+
+    #contact a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: var(--footer-bg);
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    .footer-links a {
+      color: #ccc;
+      text-decoration: none;
+      margin: 0 8px;
+      font-size: 0.9em;
+    }
+
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+    .slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: 30px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 100, 0, 0.2);
+}
+
+.slide {
+  display: none;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.fade {
+  animation: fade 1.5s ease-in-out;
+}
+
+@keyframes fade {
+  from { opacity: 0.4; }
+  to { opacity: 1; }
+}
+  </style>
+</head>
+<body>
+  <header>
+     <div class="header-content">
+      <img src="images/logo.jpeg">
+      <div class="title-text">
+    <h1>Brightstar Commercial Agencies & Land Surveyors</h1>
+    <p>Reliable Land Services for a Growing Nation</p>
+        </div>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#why">Why Choose Us</a>
+    <a href="#services">Services</a>
+    <a href="#units">Available Units</a>
+    <a href="#contact">Contact</a>
+    <a href="#location">Location</a>
+  </nav>
+
+  <main>
+    <div class="container">
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Brightstar Commercial Agencies & Land Surveyors is a trusted name in land and property solutions in Kenya. With years of professional experience and a strong commitment to accuracy, transparency, and integrity, we specialize in providing reliable land surveying, subdivision, and property advisory services.
+        Our mission is to simplify land ownership processes while ensuring every client receives personalized service, professional guidance, and dependable results. Whether you're buying land, processing titles, or conducting boundary identification, Brightstar is your dependable partner for honest and efficient land transactions.</p>
+    </section>
+
+    <section id="why">
+      <h2>Why Choose Us</h2>
+      <ul>
+        <li>Professional Expertise. Our licensed and experienced surveyors and agents understand every legal and technical detail of land dealings in Kenya.</li>
+        <li>Comprehensive Services. From land subdivision and amalgamation to mapping, title deed processing, and property sales, we handle it all under one roof.</li>
+        <li>Transparent & Honest. We uphold integrity and openness in all our services — no hidden costs, no shortcuts, just straightforward service.</li>
+        <li>Local Knowledge. With a strong presence in Naivasha and surrounding areas, we understand the value and potential of every parcel we handle.</li>
+        <li>Hassle-Free Process. We guide you through every step — from site visits and documentation to title registration and ownership transfer.</li>
+        <li>Customer-Centered Approach. We prioritize your needs, offering honest advice, tailored solutions, and responsive support every step of the way.</li>
+      </ul>
+    </section>
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="slideshow-container">
+  <div class="slide fade">
+    <img src="images/service1.jpg"/>
+  </div>
+  <div class="slide fade">
+    <img src="images/service2.jpeg"/>
+  </div>
+  <div class="slide fade">
+    <img src="images/service3.jpg"/>
+  </div>
+</div>
+
+      <ul>
+        <li>Land Subdivision</li>
+        <li>Land Amalgamation</li>
+        <li>Boundary Identification</li>
+        <li>Cadastral Survey</li>
+        <li>Area Determination</li>
+        <li>Sectional Property Survey</li>
+        <li>Land Transfers</li>
+        <li>Mapping and Spatial Analysis</li>
+        <li>Buying and Selling of Land</li>
+        <li>Land Search Assistance</li>
+        <li>Title Deed Processing</li>
+      </ul>
+    </section>
+
+    <!-- AVAILABLE UNITS SECTION -->
+    <section id="units">
+      <h2>Available Land Units on Sale</h2>
+      <div class="unit">
+        <h3>Unit A - Mirera Mastima</h3>
+        <p><strong>Size:</strong> 50 x 100</p>
+        <p><strong>Price:</strong> Ksh 950,000</p>
+        <p class="available">Status: Available</p>
+        <p><strong>Size:</strong> 1 Acre</p>
+        <p><strong>Price:</strong> Ksh 4.5M</p>
+        <p class="available">Status: Still Available</p>
+        <p><strong>Size:</strong> 3 Acres</p>
+        <p><strong>Price:</strong> Ksh 12M</p>
+        <p class="available">Status: Available</p>
+        <h3>Mirera Oasis</h3>
+        <p><strong>Size:</strong> 50 x 100</p>
+        <p><strong>Price:</strong> Ksh 650,000</p>
+        <p class="available">Status: Available</p>
+        <h3>Mirera Rubiri</h3>
+        <p><strong>Size:</strong> 50 x 100</p>
+        <p><strong>Price:</strong> Ksh 550,000</p>
+        <p class="sold">Status: Sold</p>
+      </div>
+
+      <div class="unit"><h3>Unit B - Naivasha Longonot Town</h3><p><strong>Size:</strong> 50 x 100</p><p><strong>Price:</strong> Ksh 600,000</p><p><strong>Size:</strong> 5.5 Acres</p><p><strong>Price:</strong> 3M/Acre</p><p class="available">Status: Available</p></div>
+      <div class="unit"><h3>Unit C - Naivasha MaiMahiu Town</h3><p><strong>Size:</strong> 50 x 100</p><p><strong>Price:</strong> Ksh 12M</p><p class="available">Status: Few Available</p></div>
+      <div class="unit"><h3>Unit D - Naivasha NGODI</h3><p><strong>Size:</strong> 50 x 100</p><p><strong>Price:</strong> Ksh 250,000</p><p class="available">Status: Few Available</p></div>
+      <div class="unit"><h3>Unit E - Naivasha Kedong</h3><p><strong>Size:</strong> 50 x 100</p><p><strong>Price:</strong> Ksh 500,000</p><p class="available">Status: Two units left</p></div>
+      <div class="unit"><h3>Unit F - Naivasha Unity</h3><p><strong>Size:</strong> 1 Acre</p><p><strong>Price:</strong> Ksh 7.5M</p><p class="available">Status: Available</p></div>
+      <div class="unit"><h3>Unit G - Naivasha Moindabi</h3><p><strong>Size:</strong> 5 Acre</p><p><strong>Price:</strong> Ksh 2M/Acre</p><p class="available">Status: Available</p></div>
+      <div class="unit"><h3>Unit H - Lake Front</h3><p><strong>Size:</strong> 5M</p><p><strong>Price:</strong> Ksh 20M/Acre</p><p class="available">Status: Available</p></div>
+      <div class="unit"><h3>Unit I - Naivasha Nyondia</h3><p><strong>Size:</strong> 50 x 100</p><p><strong>Price:</strong> Ksh 1.2M</p><p class="available">Status: Few Available</p></div>
+      <div class="unit"><h3>Unit J - Naivasha Kinamba</h3><p><strong>Size:</strong> 50 x 100</p><p><strong>Price:</strong> Ksh 1.35M</p><p class="available">Status: Few Units Available</p></div>
+      <div class="unit"><h3>Unit K - Villaview</h3><p><strong>Size:</strong> 50 x 100</p><p><strong>Price:</strong> Ksh 5.5M</p><p class="available">Status: Few</p></div>
+      <div class="unit"><h3>Unit L - Nyamathi</h3><p><strong>Size:</strong> 50 x 100</p><p><strong>Price:</strong> Ksh 600,000</p><p class="available">Status: Few Available</p></div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p><strong>Phone:</strong> <a href="tel:+254722392661,+254721767325">+254 722 392 661 , +254721767325</a></p>
+      <p><strong>Email:</strong> <a href="mailto:brightstarcommercialagencies@gmail.com">brightstarcommercialagencies@gmail.com</a></p>
+      <p><strong>WhatsApp:</strong> <a href="https://wa.me/254722392661" target="_blank">Chat on WhatsApp</a></p>
+      <p><strong>Address:</strong><br>Naivasha Town, Mama Ngina Street opposite Manera Hardware</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Brightstar Commercial Agencies & Land Surveyors. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#services">Services</a> |
+      <a href="#units">Units</a> |
+      <a href="#contact">Contact</a>
+    </div>
+  </footer>
+  <script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let slides = document.getElementsByClassName("slide");
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  slideIndex++;
+  if (slideIndex > slides.length) { slideIndex = 1; }
+
+  slides[slideIndex - 1].style.display = "block";
+  setTimeout(showSlides, 4000); // Change slide every 4 seconds
+}
+</script>
+</body>
+</html>
